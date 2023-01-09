@@ -1,0 +1,27 @@
+$primaryColor: #5048E5;
+
+.otp_input_box {
+  width: 50px !important;
+  height: 50px;
+  margin: 0 0.5em;
+  color: black;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid black;
+}
+.otp_input_box:focus {
+  border: 2px solid $primaryColor;
+}
+
+.error_message {
+  padding: 1.5em 0 0 0;
+  color: red;
+}
+
+@media screen and (max-width: 600px) {
+  .otp_input_box {
+    width: 35px !important;
+    height: 35px;
+    margin: 0 0.5em;
+  }
+}
